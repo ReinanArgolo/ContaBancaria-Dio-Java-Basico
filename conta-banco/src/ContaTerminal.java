@@ -7,6 +7,9 @@ public class ContaTerminal {
 
         DadosDoUsuario dadosDoUsuario = new DadosDoUsuario();
 
+        System.out.println("-=-".repeat(10));
+        System.out.println(" ".repeat(7)+ "BANCO SANTANDER");
+        
         System.out.println("Digite o número da agência!");
         dadosDoUsuario.numeroAgencia = scanner.nextInt();
 
